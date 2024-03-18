@@ -11,7 +11,7 @@ function App(): React.JSX.Element {
       <View style={{
         flex: 1,
         //paddingHorizontal:15, 
-        paddingTop: Platform.OS==="android"&& 70,
+        paddingTop: Platform.OS==="android"&& 30,
         }}>
       <Routes />
       </View>
